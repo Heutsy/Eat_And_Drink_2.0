@@ -1,0 +1,445 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../css/Roboto/Roboto-Black.ttf) format('tff');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo p {
+    font-weight: bold;
+    color: #212245;
+    margin-top: 0;
+}
+
+#logo img {
+    width: 60px;
+    height: 60px;
+    box-sizing: content-box;
+
+}
+
+ul {
+    display: flex;
+    margin-top: 30px;
+    padding: 0;
+}
+
+a,li {
+    text-decoration: none;
+    list-style: none;
+    padding: 7px 12px;
+    font-weight: bold;
+    color: #212245;
+}
+
+li:hover {
+    background-color: #df2020;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+#gauche {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 0;
+    width: 70px;
+    height: 60px;
+}
+
+.gauche1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ronde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #df2020;
+    width: 17px;
+    height: 23px;
+    border-radius: 60%;
+    font-size: x-small;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+.puce {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+#premiere {
+    display: flex;
+}
+
+#commande {
+    margin-top: 20px;
+}
+
+#faim {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+    color: #df2020;
+}
+
+span {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.famine {
+    margin: 40px 0;
+    line-height: 0.5;
+}
+
+.famine #faim {
+    margin: 0;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #df2020;
+    color: white;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    border: none;
+}
+
+button:hover{
+    background-color: #212245;
+    color: white;
+}
+
+#livraison {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.livraison {
+    display: flex;
+    align-items: center;
+
+}
+
+.livraison div {
+    width: 30px;
+    margin-right: 12px;
+}
+
+.livraison p {
+    margin-right: 50px;
+    font-size: smaller;
+}
+
+.livraison i {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #df2020;
+}
+
+/*2ieme partie presentation du menu */
+
+#category {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    flex-wrap: wrap;
+
+
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fca5a5;
+    width: 210px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.category div {
+    width: 40px;
+}
+
+.category p {
+    margin-left: 15px;
+    font-size: medium;
+
+}
+.category :hover{
+    color: white;
+}
+/*3eme partie les services*/
+#deuxieme {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#titre {
+    color: #df2020;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: large;
+    color: #212245;
+}
+
+.small {
+    font-size: large;
+    color: #333;
+}
+
+/*4eme partie les offres*/
+
+#services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 30px;
+    padding: 5px;
+}
+
+.service div {
+    width: 150px;
+    margin-bottom: 3px;
+}
+
+.service p {
+    margin-top: 2px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.lorem {
+    font-size: small;
+    text-align: justify;
+}
+
+/*Popular foods*/
+#nav {
+    background-color: #df2020;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu div {
+    width: 30px;
+    margin-left: 20px;
+}
+
+#menu .menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.all:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+#foods {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/*les produits */
+
+.produit {
+    border: 1px solid #fca5a5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 10px;
+    padding: 15px;
+}
+
+.produit .img {
+    width: 50%;
+    margin-top: 5px;
+}
+
+.bloc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.action button {
+    padding: 15px;
+    margin-top: 7px;
+    font-size: small;
+}
+
+.prix {
+    color: #df2020;
+    font-weight: bold;
+}
+
+/*Hoot Pizza*/
+#foods .produit {
+    width: 30%;
+}
+
+.produit .img {
+    width: 30%;
+    margin-top: 5px;
+}
+
+/*Drinks*/
+#foods .produit {
+    width: 40%;
+}
+
+.produit .img {
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.produit .img {
+    width: 75%;
+    margin-top: 5px;
+}
+
+.produit .imgC {
+    width: 50%;
+    margin-top: 5px;
+}
+
+.img:hover {
+    scale: 1.2;
+}
+
+.precedent {
+    padding-left: 500px;
+}
+
+footer {
+    background-color: #ffd2d2;
+}
+
+#foot {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+#footer1,
+#footer2,
+#footer3,
+#footer4 {
+    width: 30%;
+    margin-right: 25px;
+}
+
+#footer3 {
+    margin-left: 0;
+}
+
+input {
+    height: 6px;
+    border-radius: 15px;
+    padding: 15px;
+    border: none;
+}
+
+form {
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: small;
+}
+
+#footer4 {
+    margin: 0;
+}
+
+hr {
+    width: 50%;
+}
+
+.lieu {
+    line-height: 1px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    line-height: 1px;
+    margin-top: 50px;
+}
+
+.medias {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.pied p {
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+.medias i {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #df2020;
+}

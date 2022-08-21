@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../css/Roboto/Roboto-Black.ttf) format('tff');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    width: 500px;
+    background-color: #ffd2d2;
+    padding: 50px;
+    padding-left: 150px;
+    margin-left: 200px;
+}
+
+#button {
+    background-color: #df2020;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-left: 150px;
+}
+
+.precedent button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #212245;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+.alignement {
+    display: flex;
+    justify-content: center;
+}
+
+#long {
+    width: 200px;
+}
+
+.groupe input {
+    width: 350px;
+    height: 40px;
+}
+
+.image {
+    background-image: url(../images/pub.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+    padding: 60PX 0PX 0PX 10PX;
+    height: 220px;
+    font-size: 30PX;
+    color: white;
+}
+
+.image h1 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+.i i{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    padding: 5px;
+    background-color: #df2020;
+}
+.radio input{
+    width: 20px;
+    height: 20px;
+}
+
+#dessous {
+    text-align: center;
+}
+
+#dessus {
+    border-color: #df2020;
+    width: 300px;
+    margin: 10px;
+}

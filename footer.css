@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../css/Roboto/Roboto-Black.ttf) format('tff');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    background-color: #ffd2d2;
+}
+
+#foot {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+#footer1,
+#footer2,
+#footer3,
+#footer4 {
+    width: 30%;
+    margin-right: 25px;
+}
+
+#footer3 {
+    margin-left: 0;
+}
+
+/* form input {
+    height: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    */
+
+form {
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: small;
+}
+
+#footer4 {
+    margin: 0;
+}
+
+hr {
+    width: 50%;
+}
+
+.news {
+    line-height: 1px;
+    margin-bottom: 20px;
+}
+
+.news1 {
+    line-height: 1px;
+    margin-top: 50px;
+}
+
+.pied {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.pied p {
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+.pied i {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #df2020;
+}
